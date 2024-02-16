@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  #main-nav {
+    background-color: rgb(207, 201, 201);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  #main-nav div {
+    margin: 0 10px;
+  }
+
+  #main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+
+  #main-nav a:hover {
+    color: #ffa500; /* change to your preferred hover color */
+  }
+
+  @media (max-width: 768px) {
+    #main-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #main-nav div {
+      margin: 10px 0;
+    }
+  }
